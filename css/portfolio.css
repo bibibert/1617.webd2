@@ -12,7 +12,7 @@
 }
  
  body{
-      background-image: url("../_Img/karton.jpg.jpg");
+      background-image: url("../assets/images/karton.jpg.jpg");
       background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
