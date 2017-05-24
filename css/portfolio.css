@@ -1,0 +1,19 @@
+.portfolio{
+    margin: 20px 0 0 0;
+}
+
+.fotoport{
+    margin: 5px 10px;
+
+}
+
+.fotoport:hover {
+    opacity: 0.7; 
+}
+ 
+ body{
+      background-image: url("../_Img/karton.jpg.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }

@@ -8,21 +8,99 @@ html, body {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  background-image: url("../_Img/1819204.jpg.JPG");
   background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
-.intro {
-  width: 90vw;
+.logo{
+  width: 300px;
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+.main-navigation{
+  display:block;
+  background-color: cornflowerblue;
+  height: 120px;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+ul#navigatie {
+padding: 0;
+}
+
+#navigatie li{
+  list-style-type: none;
+  float: left;
+  display:block;
+  font-family: 'Tw Cen MT';
+  text-transform: uppercase;
+  width:20%;
+
+}
+
+#navigatie li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  line-height: 100px;
+}
+
+#navigatie li a:hover{
+  font-size:18px;
+}
+
+a.arabella_logo{
+  display:block;
+  width:100%;
+  background-image: url(../assets/images/arabellalogo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  overflow:hidden;
+  text-indent: -999px;
+}
+
+.footertekst {
+  font-family: "TW Cen MT";
+  color:white;
+  font-size: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+.footer-wrapper{
+  background-color:dodgerblue;
+  padding: 0 0;
+  height: 130px;
+  padding: 20px;
+}
+
+.content_container {
+  height: 600px;
+  color: white;
+}
+
+
+
+
+.tekst h2{
+color: white;
+position: fixed;
+left: 980px;
+
+}
+
+
+
+.somelink {
+  text-decoration: none;
+  line-height: 2;
+  color: white;
+}
+
+.somelink:hover{
+  font-size: 18px;
 }

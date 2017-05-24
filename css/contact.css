@@ -1,0 +1,69 @@
+.boeken {
+    background-color:cornflowerblue;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+    font-family:"Century Gothic";
+
+}
+
+.boeken:hover{
+    background-color: dodgerblue;
+    color: white;
+
+
+}
+
+.tekst {
+    position: absolute;
+    left: 300px;
+    right: 300px;
+    font-family:"Century Gothic";
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.tekst2 {
+    position: absolute;
+    left: 665px;
+    top: 0px;
+    right: 300px;
+    font-family:"Century Gothic";
+    font-size:20px;
+    
+}
+
+fieldset {
+    width: 350px;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    position:absolute;
+    top:0px;
+    left:50px;
+}
+
+fieldset.gegevens {
+    width: 350px;
+    padding:20px;
+    text-align: left;
+    border: 1px solid white;
+    position: absolute;
+    top: 85px;
+    left: 675px;
+
+}
+
+.content-row {
+    height: 600px;
+}
+
+input {
+    line-height: 30px;
+  
+}
+
+.inputbalk {
+ width: 280px;
+}

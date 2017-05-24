@@ -1,0 +1,39 @@
+.tekst {
+    position: absolute;
+    left: 300px;
+}
+
+.tekst h1 {
+    font-size: 30px;
+    
+}
+
+.tekst p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Century Gothic";
+}
+
+.voorstel {
+    position: absolute;
+    left: 960px;
+}
+
+.voorstel h1 {
+    font-size: 30px;
+}
+
+.voorstel p {
+    font-size: 20px;
+
+}
+
+.bijschrift {
+    position:absolute;
+    left: 150px;
+    top: 0px;
+    line-height: 120px;
+    margin: 60px 0px 0px 0px;
+    font-size: 25px;
+
+}

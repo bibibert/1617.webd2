@@ -1,0 +1,14 @@
+body{
+      background-image: url("../_Img/karton.jpg.jpg");
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ 
+ .detailfoto{
+    
+     display: block;
+     margin: 0 auto;
+     margin-top: 100px;
+ }
+ 
